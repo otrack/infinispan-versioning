@@ -16,6 +16,7 @@
         <version.infinispan>7.2.5.Final</version.infinispan>
         <version.hibernate-search-orm>5.6.0.Alpha3</version.hibernate-search-orm>
         <version.hibernate-hql>1.2.2.Final</version.hibernate-hql>
+        <version.org.jboss.jbossts.jbossjts>4.16.2.Final</version.org.jboss.jbossts.jbossjts>
         <lucene-solr.version>4.10.3</lucene-solr.version>
         <maven-deploy-plugin.version>2.5</maven-deploy-plugin.version>
         <checksum-maven-plugin.version>1.0.1</checksum-maven-plugin.version>
@@ -73,6 +74,13 @@
             <version>6.8.8</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.jboss.jbossts</groupId>
+            <artifactId>jbossjta</artifactId>
+            <version>${version.org.jboss.jbossts.jbossjts}</version>
+            <scope>test</scope>
+         </dependency>
 
     </dependencies>
 
