@@ -125,6 +125,19 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+      <repository>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+        <id>jboss-public-repository</id>
+        <name>JBoss Public Repository and Proxy for third party repositories</name>
+        <url>https://repository.jboss.org/nexus/content/groups/public</url>
+      </repository>
+    </repositories>
     <profiles>
         <profile>
             <id>clientlibs</id>
